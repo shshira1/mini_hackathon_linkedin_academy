@@ -1,0 +1,6 @@
+{
+  "name": "LinkedIn Academy",
+  "description": "Duolingo-style micro-course app teaching college students professional LinkedIn skills in 3-minute lessons.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

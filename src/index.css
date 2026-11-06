@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+}
+
+/* 3D Duolingo-style push buttons */
+.btn-3d-blue {
+  background-color: #0a66c2;
+  box-shadow: 0 4px 0 #004182;
+  transition: all 0.1s ease;
+}
+.btn-3d-blue:hover {
+  background-color: #0052a3;
+}
+.btn-3d-blue:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 #004182;
+}
+
+.btn-3d-emerald {
+  background-color: #059669;
+  box-shadow: 0 4px 0 #047857;
+  transition: all 0.1s ease;
+}
+.btn-3d-emerald:hover {
+  background-color: #047857;
+}
+.btn-3d-emerald:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 #065f46;
+}
+
+.btn-3d-amber {
+  background-color: #f59e0b;
+  box-shadow: 0 4px 0 #d97706;
+  transition: all 0.1s ease;
+}
+.btn-3d-amber:hover {
+  background-color: #d97706;
+}
+.btn-3d-amber:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 #b45309;
+}
+
+.btn-3d-white {
+  background-color: #ffffff;
+  box-shadow: 0 3px 0 #cbd5e1;
+  transition: all 0.1s ease;
+}
+.btn-3d-white:active {
+  transform: translateY(2px);
+  box-shadow: 0 1px 0 #cbd5e1;
+}
